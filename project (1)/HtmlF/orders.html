@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      AllisonCo.Orders</title>
+    <link rel="stylesheet" href="../CssF/orders.css">
+     <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+     <!-- Fonts -->
+  </head>
+  <body>
+        <header>
+             <aside> 
+                 <nav class="Nav">
+                   <ul>
+                     <a class="bl" href="../index.html">Home</a>
+                     <a class="bl" href="about.html">About</a>
+                     <a class="bl" href="contacts.html">Contacts</a>
+                    <a class="bl" href="creations.html">Creations</a>
+                   </ul> 
+                 </nav>
+           </aside>
+          <img src="../img/LogoIdea" class="logo" width="200" height="100">
+      </header>
+    <!-- table -->
+     <table>
+      <tr class="tablehead">
+      <td>Product</td>
+      <td >Price</td>
+      <td >Info</td>
+      </tr>
+      <tr class="info">
+      <td>Psyduck</td>
+        <td >$20</td>
+        <td >Roughly 7 inches in height</td>
+      </tr>
+      <tr  class="info">
+      <td>PSS</td>
+        <td>$5</td>
+        <td>A Key Chain</td>
+      </tr>
+        <tr  class="info">
+      <td>Luna Moon</td>
+        <td>$10</td>
+        <td>A symbol to support a lost life</td>
+      </tr>
+        <tr  class="info">
+      <td>Scarletrope</td>
+        <td>$10</td>
+        <td>A Sign for the Scarletrope Project</td>
+      </tr>
+        <tr  class="info">
+      <td>Loki helmet</td>
+        <td>$10-$15</td>
+        <td>A wearable helmet(The price depends on the size)</td>
+      </tr>
+        <tr  class="info">
+      <td>Loki Alligator </td>
+        <td>$15</td>
+        <td>A figure of the Loki Alligator</td>
+      </tr>
+    </table>
+<!-- /table -->
+    <section class="OS">
+      <div class="OS-text">
+        <form id="OF" action="order.html" method="post">
+            <h1 class="page-header">Order Sheet</h1>
+            
+         
+              <label for="FN">First Name:</label><input type="text" placeholder="John"class="name" id="FN" name="user_name"><br>  
+             
+               <label for="LN"> Last Name:</label><input type="text" placeholder="Holdenstamen" class="name" id="LN" name="user_name"><br>
+            
+           
+                <label for="SA">Shipping Address:</label><input type="text" placeholder="655 North St.Bridgeport, CT 06606" id="SA" SA="Address"><br>
+          
+           
+                <label for"product">Product:</label><select placeholder="Mubert" id="product">
+              <option>Psyduck</option>
+              <option>Loki Helmet</option>
+              <option>Luna Moon</option>
+              <option>Scarletrope</option>
+              <option>Keychain</option>
+              <option>Loki Alligator</option>
+          </select>
+           <br>
+          
+                <h5>(If keychain customize it yourself)</h5>
+           <label for="braclet">Keychain writing:</label>
+            <input type="text" Placeholder="PSS" id="braclet">
+          
+            <br>
+            <br>
+            <label for="product-color">Product Color:</label> 
+          <h5>(Only one color per product)</h5>
+          <div id="product-color">
+                             <label for="productcolor">Product Color</label>
+                            <select>
+                            <option class="red">Red</option>
+                              <option class="orange">Orange</option>
+                              <option class="green">Green</option>
+                              <option class="blue">Blue</option>
+                              <option class="black">Black</option>
+                              <option class="white">White</option>
+                              <option class="yellow">Yellow</option>
+                            </select>
+                        </div>
+             <button type="submit" id="button">Submit</button>
+          </form>
+        </div>
+          </section>
+   
+     <footer>
+              <a class="social-media" href="https://instagram.com/allison_3dprinting?utm_medium=copy_link" target="_blank">
+       <img src="../img/instagram" width=50 height=50 class="instagram">
+       </a>
+              <h4 class="copyright"><span>&copy;</span>Allison Co.2021 -The Dream Team #2</h4>
+      </footer>
+  </body>
+</html>

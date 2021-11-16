@@ -1,0 +1,164 @@
+h1, h2{
+color: #b4d1de;
+  font-family: 'Vollkorn', serif;
+}
+.page-header{
+  color: #4b8eaa;
+background-color: #99c1d2;
+  border: 4px solid #70a8c0;
+    text-align:left top;
+  width: 190px;
+  height: 30px;
+  padding: 5px;
+  margin: 2px; 
+   font-family: sans-serif;
+}
+
+.Co-creator, .Me{
+text-align: left;
+  font-size: 18px; 
+  font-weight: bold;
+font-family: 'Newsreader', serif;
+}
+.Nav{
+ text-align: center;
+display: inline;
+}
+ul{
+  list-style-type: none;
+margin:0; 
+  padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.bl:hover{
+background-color: #bcd4eb;
+    transform: scale(1.09);
+  border:1.5px #bcd4eb solid;
+  border-bottom-color:#71a3d4;
+  border-right-color:#71a3d4;
+  box-shadow:1.5px 1.5px 1.5px #acc9e6;
+}
+.bl{ 
+  display: inline-block;
+background-color: #2d5566;
+  opacity: 80%;
+    color: white;
+  margin:; 
+  padding: 10px;
+  text-decoration: none; 
+  font-size: 20px; 
+width: 100px;
+}
+body{
+background-color: #71a8c0;
+  opacity: ;
+}
+.media{
+text-align:center;
+  color: #e3bcd1;
+  border: 5px solid #c678a2;
+  background-color:ghostwhite;
+  position:sticky;
+  border-radius:10px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.text{
+float: left;
+  margin: 5px;
+}
+.logo{
+  position:relative;
+  border:4px solid #f4faff;
+  background-color:white;
+  border-radius:25%;
+}
+.A-pic {
+  border-radius:90%;
+  border:2px solid #99c1d2;
+  position:relative;
+  left:45px;
+  }
+
+.media{
+text-align:center;
+  color:orange;
+  border: 5px solid lightblue;
+  background-color:ghostwhite;
+  position:sticky;
+  border-radius:10px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.instagram{
+border-radius:50%;  
+}
+.instagram:hover{
+transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  transform:scale(1.05);
+}
+
+.copyright{
+font-family: 'Newsreader', serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+  .OS{
+    width:90%;
+    height:90%;
+  }
+  .bl{
+    display:block;
+    width:100%;
+    height:50px;
+  }
+  .logo{
+    position:relative;
+    bottom:50px;
+    right:10px;
+  }
+  .Allison-About, .Tk-About{
+  background-color:white;
+  width:400px;
+  height:550px;
+  position:relative;
+  left:0px;
+    border:2px solid gray;
+    border-radius:10%;
+}
+  .Tk-About{
+  top: 60px;
+  }
+  .Me, .Co-creator{
+background-color:;
+  padding:10px;
+  border-radius:20%;
+   border-top-color:lightgray ;
+}
+   .Bottom-card{
+    background-color:lightblue;
+      border-bottom-left-radius:10%;
+      border-bottom-right-radius:10%;
+    padding-bottom:15px;
+  }
+  .About-A{
+  text-align:center;
+  border:1px solid blue;
+    color:blue; 
+}
+  footer{
+  margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1000px){
+.A-pic{
+  float: left;
+    margin-right: 100px;
+  }
+}
